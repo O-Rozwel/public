@@ -1,5 +1,6 @@
 function R_Gdb()
 {
+    local program=0
     local process=1
     local process_dir=2
 
