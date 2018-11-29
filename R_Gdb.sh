@@ -1,3 +1,5 @@
+#R_Gdb $app || R_Gdb $app -d $dir
+#use `pidof` judge whether $app is a program or a process
 function R_Gdb()
 {
     local program=0
